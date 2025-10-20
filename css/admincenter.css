@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     height: 100vh;
@@ -9,6 +10,14 @@ body {
     align-items: center;
 }
 
+h1 {
+    margin: 50px;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+
 header {
     width: 100%;
     display: flex;
@@ -16,6 +25,7 @@ header {
     padding: 20px;
     position: relative;
 }
+
 
 #kilepes {
     background: #e74c3c;
@@ -31,31 +41,23 @@ header {
     top: 40px;
 }
 
+#kilepes:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+
 
 #ban {
-    position:absolute;
-    top:150px;
-    right:240px;
+    position: absolute;
+    top: 150px;
+    right: 330px;
     color: white;
     cursor: pointer;
     border: none;
     background: #e74c3c;
     padding: 10px 18px;
     border-radius: 8px;
-    width:150px;
-}
-
-#kilepes:hover {
-    background: #c0392b;
-    transform: scale(1.05);
-}
-
-h1 {
-    margin: 0;
-    margin-top: 30px;
-    font-size: 2rem;
-    text-align: center;
-    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    width: 150px;
 }
 
 main {
@@ -78,6 +80,7 @@ main {
     text-align: center;
 }
 
+
 #userSelect {
     width: 100%;
     padding: 12px;
@@ -94,6 +97,7 @@ main {
     background: #50507a;
 }
 
+
 #details {
     margin-top: 20px;
     padding: 15px;
@@ -104,24 +108,33 @@ main {
     font-size: 0.9rem;
 }
 
+
 @media (max-width: 600px) {
-    h1 {
-        font-size: 1.6rem;
-        margin-top: 200px;
+    #cim {
+        margin-top: 100px;
     }
 
     #kilepes {
         padding: 8px 14px;
         font-size: 0.9rem;
         right: 15px;
-        top: 50px;
+        top: 20px;
     }
 
     .kontroll {
         padding: 15px;
+        margin-top: 100px;
     }
 
     #details {
         font-size: 0.85rem;
+    }
+
+    #ban {
+        
+        position: absolute;
+        right: 150px;
+        top: 190px;
+       
     }
 }
