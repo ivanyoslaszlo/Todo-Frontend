@@ -27,7 +27,7 @@ header {
 }
 
 
-#kilepes {
+#logout {
     background: #e74c3c;
     color: white;
     border: none;
@@ -41,7 +41,7 @@ header {
     top: 40px;
 }
 
-#kilepes:hover {
+#logout:hover {
     background: #c0392b;
     transform: scale(1.05);
 }
